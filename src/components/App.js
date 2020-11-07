@@ -1,6 +1,6 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import "../styles/App.css";
-class Timer extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.start = false;
@@ -60,4 +60,4 @@ class Timer extends React.Component {
   }
 }
 
-export default Timer;
+export default App;
