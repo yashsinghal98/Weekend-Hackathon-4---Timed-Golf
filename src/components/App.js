@@ -18,7 +18,7 @@ class App extends React.Component {
     };
   }
   componentDidMount() {
-    document.body.addEventListener("keydown", () => this.handlekey(event));
+    document.body.addEventListener("keydown", () => this.handlekey());
   }
 
   handleclick = () => {
